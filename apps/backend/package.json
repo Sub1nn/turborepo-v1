@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsc -b && node dist/index.js",
+    "build": "tsc -b",
+    "test": "echo 'Add test script here'",
+    "lint": "echo 'Add lint script here'"
+  },
+  "dependencies": {
+    "express": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
